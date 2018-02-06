@@ -12,7 +12,7 @@ for (let i = 0; i < 5; i++) {
     document.write(firstArray[i]);
 }
 
-document.getElementById("first").innerHTML = firstArray;
+document.getElementById("first").children = firstArray;
 
 function scrollDown() {
 
