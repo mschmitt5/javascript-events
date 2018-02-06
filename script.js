@@ -1,6 +1,8 @@
 function scrollDown() {
+
     delete document.getElementById("scroll").innerHTML;
 }
+
 
 
 function textColor() {
