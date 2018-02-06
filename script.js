@@ -8,13 +8,15 @@ let firstParagraph = "Squashy armchairs dirt on your nose brass scales crush the
 
 let firstArray = firstParagraph.split(" ");
 
-for (var i in firstArray) {
+for (let i = 0; i < 5; i++) {
     document.write(firstArray[i]);
 }
 
+document.getElementById("first").innerHTML = firstArray;
+
 function scrollDown() {
 
-    for (var i in firstArray) {
-        remove()
+    for (let i = 0; i < 5; i++) {
+        document.removeChild(firstArray[i]);
     }
 }
