@@ -1,3 +1,9 @@
 function scrollDown() {
-    document.getElementById("scroll").textContent.
+    delete document.getElementById("scroll").innerHTML;
+}
+
+
+function textColor() {
+    document.getElementById("ginny").style.color = "red";
+
 }
